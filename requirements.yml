@@ -1,0 +1,10 @@
+---
+roles:
+  - name: geerlingguy.pip
+    src: geerlingguy.pip
+  - name: geerlingguy.docker
+    src: geerlingguy.docker
+
+collections:
+  - name: community.docker
+  - name: datadog.dd

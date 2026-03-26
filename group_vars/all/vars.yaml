@@ -1,0 +1,6 @@
+redmine_port: 80
+redmine_image: "redmine:latest"
+redmine_container_name: "redmine"
+redmine_path: "/opt/redmine"
+pip_install_packages:
+  - name: docker

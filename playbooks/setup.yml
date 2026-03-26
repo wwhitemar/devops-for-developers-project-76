@@ -1,0 +1,6 @@
+- name: Setup servers
+  hosts: all    
+  
+  roles:
+    - geerlingguy.pip
+    - geerlingguy.docker

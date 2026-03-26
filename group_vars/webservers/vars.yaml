@@ -1,0 +1,17 @@
+redmine_db_host: "rc1b-3onp5mkev5o2mu0c.mdb.yandexcloud.net"
+redmine_db_port: 6432
+redmine_db_name: "db1"
+redmine_db_sslmode: "require"
+redmine_db_password: "{{ vault_redmine_db_password }}"
+redmine_db_user: "{{ vault_redmine_db_user }}"
+
+datadog_api_key: "{{ vault_datadog_api_key }}"
+
+datadog_site: datadoghq.com
+datadog_checks:
+  http_check:
+    init_config:
+    instances:
+      - name: redmine
+        url: https://cheap-domen-for-devops-education.asia
+        timeout: 5
